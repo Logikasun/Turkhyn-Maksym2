@@ -1,30 +1,37 @@
-body{
+body {
   font-family: sans-serif;
-  background-color:red;
-  color:white;
-  font-size:20px;
-}
-h1{
-    text-align:center;
-    color:#A30000;
-}
-h3{
-    text-align:center;
-}
-footer{
-    background-color:#A30000;
-    padding:20px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
 }
 
-main{
-    padding:20px;
+h1 {
+  text-align: center;
+  color: #A30000;
 }
 
-.imgggg{
-        text-align:center;
+h3 {
+  text-align: center;
 }
 
-iframe{
-  display:flex;
-  justify-content:center;
+footer {
+  background-color: #A30000;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.imgggg {
+  text-align: center;
+}
+
+/* СТИЛЬ ДЛЯ ЦЕНТРУВАННЯ ВІДЕО */
+iframe {
+  display: block; /* Змінив з flex на block */
+  margin: 0 auto; /* Автоматичні відступи зліва і справа - це центрує */
+  border: 3px solid #A30000; /* Додав рамку в тон сайту */
+  border-radius: 10px; /* Закруглені кути */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Тінь для об'ємності */
 }
