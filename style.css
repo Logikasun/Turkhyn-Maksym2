@@ -1,1 +1,30 @@
+body{
+  font-family: sans-serif;
+  background-color:red;
+  color:white;
+  font-size:20px;
+}
+h1{
+    text-align:center;
+    color:#A30000;
+}
+h3{
+    text-align:center;
+}
+footer{
+    background-color:#A30000;
+    padding:20px;
+}
 
+main{
+    padding:20px;
+}
+
+.imgggg{
+        text-align:center;
+}
+
+iframe{
+  display:flex;
+  justify-content:center;
+}
